@@ -79,7 +79,7 @@ Invoke-CIProfile -Name $Profile -Steps @{
     release = @{
         Steps = "build", {
             $owner = "archmachina"
-            $repo = "apiutil"
+            $repo = "docker-apiutil"
 
             $releaseParams = @{
                 Owner = $owner
