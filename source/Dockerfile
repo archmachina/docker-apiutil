@@ -1,4 +1,4 @@
-FROM docker.io/ubuntu:jammy-20221130
+FROM docker.io/ubuntu:jammy-20250404
 
 ARG DEBIAN_FRONTEND=noninteractive
 
